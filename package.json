@@ -1,0 +1,43 @@
+{
+  "name": "microverse-staff-api",
+  "version": "1.0.0",
+  "description": "api lost ark community",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichala/Microverse-Staff-Api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.13.0",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^6.0.14",
+    "mongoose-unique-validator": "^3.0.0",
+    "node-cache": "^5.1.2",
+    "nodemailer": "^6.7.2",
+    "randomstring": "^1.2.1",
+    "toobusy-js": "^0.5.1",
+    "validator": "^13.7.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ichala/Microverse-Staff-Api.git/issues"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "homepage": "https://github.com/ichala/Microverse-Staff-Api.git#readme"
+}
