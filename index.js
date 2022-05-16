@@ -87,6 +87,11 @@ app.get("*", (req, res) => {
   const welcome = {
     message: "Api Running check documentation at https://github.com/ichala/Microverse-Staff-Api#microverse-staff-api ",
     status: 200,
+    endpoints :[
+      "https://microverse-staff.herokuapp.com/api/v1/staff/all",
+      "https://microverse-staff.herokuapp.com/api/v1/staff/single/6282352e3dde6c78f852627c",
+      "https://microverse-staff.herokuapp.com/api/v1/staff/2",
+  ]
   };
   res.status(200).json(welcome);
 });
