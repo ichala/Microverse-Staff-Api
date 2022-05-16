@@ -18,7 +18,7 @@ router.get("/staff/all", async (req, res) => {
       } else {
         res.status(404).json({
           status: 404,
-          errors: { msg: "No Guilds Found" },
+          errors: { msg: "No Result Found" },
         });
       }
     }
