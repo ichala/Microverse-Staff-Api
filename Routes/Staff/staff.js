@@ -24,7 +24,7 @@ router.get("/staff/all", async (req, res) => {
     }
   });
 });
-router.get("/staff/all/:id", async (req, res) => {
+router.get("/staff/single/:id", async (req, res) => {
   let checkID = new RegExp("^[0-9a-fA-F]{24}$");
   console.log(req.params.id);
   if (!checkID.test(req.params.id)) {
