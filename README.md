@@ -17,7 +17,11 @@
 [https://microverse-staff.herokuapp.com/api/v1/](https://microverse-staff.herokuapp.com/api/v1/)
 
 ### Endpoints
+
+
 ### `/staff/all`
+example : [https://microverse-staff.herokuapp.com/api/v1/staff/all](https://microverse-staff.herokuapp.com/api/v1/staff/all)
+
 
 Allowed actions:
 
